@@ -1,0 +1,71 @@
+Basic java tutorial - variable declaration part 1
+
+
+There are different data types that can be used in the java language
+
+int -> this is short for integers. integers are any number that stores whole numbers from -2,147,483,648 to 2,147,483,647
+String -> this is a data type that hold characters which includes numbers and letters that are within double quotes like this -> " "
+double -> slightly more accurate number that includes decial numbers
+float -> even more accurate than double and int; includes decimal numbers
+
+This is how you create a vairable in java. Here is an example:
+
+***************
+int number = 2;
+***************
+
+Notice this statement
+1) First choose the kind of data type you want to use (int, string, double, float)
+2) Give the a variable name (this can be anything, except possible java keywords). 
+3) Put an equal sign. This equals sign is important because it means that whatever is on the right side of the equals is going to be put into the variable name
+4) Lastly you end it off with a semicolon 
+
+
+Mini Task
+Create 4 different variables with each of the data type mentioned above
+
+*********************************************************************************************************
+
+Basic java tutorial - Print Statements part 2
+
+In java we can print variables and statements to the console. Heres an example:
+
+***************
+System.out.println(1);
+***************
+
+This statement will print out the number 1 to the console. We can print out variable to the console as well.
+
+Mini Task
+Below there is some written code. Write 2 print statements that would show the value of the variables to the console.
+Hint: use System.out.println() command. The value you want to print goes inside the parenthesis.
+
+***************
+int number = 5;
+String greeting = "Hello World!";
+
+
+
+
+*********************************************************************************************************
+Basic java tutorial - Concatenation part 3
+
+What does concatenate mean? It means to put 2 things that were separated together. Think of writing a sentence you are concatenating words together
+
+In java we can concatenate variables with a print statement. Heres an example:
+
+String mood = "happy";
+System.out.println("I am feeling " + mood);
+
+In the example above we see that we created a new variable called mood and made it happy. We then created a print statement and concatenated our variable to the print statement inside the parenthesis. Notice the plus sign, we need it to concatinate a String with a variable
+
+
+Coding challenge:
+Create 1 variable and print statement. Use that vairable inside your print statement
+
+
+
+
+
+
+
